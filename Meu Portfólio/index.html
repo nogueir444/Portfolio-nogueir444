@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Nogueira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#redes">Redes Sociais</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="left">
+            <div class="content">
+                <h1>Olá, sou o Lucas!</h1>
+                <h2>Desenvolvedor Iniciante</h2>
+                <p>Estou construindo minha carreira na programação e sempre em busca de novos desafios.</p>
+                <a href="#projetos" class="btn">Meus Projetos</a>
+            </div>
+        </section>
+        <section class="right">
+            <div class="image-container">
+                <img src="imagens/1729243239168.png" alt="Imagem de Lucas">
+            </div>
+        </section>
+    </main>
+    <hr>
+
+    <section id="projetos" class="projects">
+        <h2>Meus Projetos</h2>
+        <div id="github-projects" class="project-list"></div>
+    </section>
+    
+    <hr>
+
+    <section id="sobre" class="sobre">
+        <h2>Sobre</h2>
+        <p>Olá! Meu nome é Lucas e sou um desenvolvedor iniciante apaixonado por tecnologia e programação. Atualmente, estou focado em expandir meus conhecimentos em desenvolvimento web, com habilidades em HTML, CSS, e JavaScript.</p>
+        <p>Estou sempre em busca de novos desafios que me permitam crescer profissionalmente e aprimorar minhas habilidades. Gosto de trabalhar em projetos práticos, explorando diferentes soluções criativas para problemas do dia a dia, o que me motiva a continuar aprendendo e evoluindo como desenvolvedor.</p>
+        <p>Meu objetivo é construir uma carreira sólida na área de tecnologia, contribuindo com projetos inovadores e criando soluções eficientes que fazem a diferença.</p>
+        <p>Se você está em busca de alguém motivado e pronto para colaborar, estou disponível para novos projetos e oportunidades!</p>
+    </section>
+    <hr>
+
+    <section id="redes" class="redes">
+        <h2>Redes Sociais</h2>
+        <div class="social-links">
+            <a href="https://www.instagram.com/nogueir444" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.linkedin.com/in/lucas-de-andrade-nogueira-2184a5332/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://wa.me/35999590074" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="https://github.com/nogueir444" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+    </section>
+    <hr>
+
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <form id="contact-form" action="#" method="POST">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p class="pf">&copy; 2024 Lucas Nogueira. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
